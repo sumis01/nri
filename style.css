@@ -1,0 +1,173 @@
+#pageHead {
+  width: 150px;
+  height: 130px;
+}
+
+/* トップ画像 */
+#irheader img {
+  width: 1920px;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+#pankuzu {
+  font-size: 12px;
+	color: #999999;
+  padding: 0 250px;
+}
+
+
+/* メインボディワン */
+#mainone {
+  width: 800px;
+  height: 1888px;
+  margin: 0 auto;
+}
+
+#irheader #irheaderone  {
+  position: absolute;/*絶対配置*/
+  font-size: 20px;
+  color: #FFFFFF;/*文字は白に*/
+  top: 10px;
+  left: 200px;
+}
+
+#irheader #irheadertwo  {
+  position: absolute;/*絶対配置*/
+  font-size: 28px;
+  line-height: 42px;
+  color: #FFFFFF;/*文字は白に*/
+  top: 50px;
+  left: 200px;
+  
+}
+
+
+#irheader {
+  position: relative;
+}
+
+/* シェアタグ */
+
+#shareone {
+  padding: 30px;
+}
+
+.share p {
+  float: right;
+  font-size: 10px;
+  color: #333333;
+  line-Height: 15px;
+  padding
+}
+
+.share img {
+  float: right;
+  width: 24px;
+  height: 24px;
+  padding: 10px ;
+}
+
+/* メインページ */
+
+
+/* ボタン */
+.degitalbtn {
+  width:296px;
+  height:70px;
+  line-height:70px;
+  margin: 0 auto;
+  padding-right: 2.5em;
+}
+.degitalbtn a{
+  display:block;
+  width:100%;
+  height:100%;
+  text-decoration: none;
+  background:#005BAC;
+  text-align:center;
+  color:#FFFFFF;
+  font-size: 9px;
+}
+.degitalbtn a:hover{
+  background:#005BAC;
+  color:#FFFFFF;
+  margin-left:0px;
+  margin-top:0px;
+  box-shadow:none;
+  opacity: 0.5;
+}
+
+#Businessmodel {
+  width: 820px;
+  height: 30px;
+  margin: 0 30px 30px 0;
+
+}
+
+#Businesleft {
+  float: left;
+  font-size: 16px;
+}
+
+#Businesright {
+  float: right;
+  font-size: 16px;
+}
+
+#degitalbotan {
+  width: 800px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* NRIの強み */
+#nristrong {
+  width: 800px;
+  height: 241px;
+  padding: 15px 20px;
+  background-color: #deecf8;
+}
+
+#nristrongtext {
+  width: 760px;
+  height: 30px;
+}
+
+#nristrongtext p {
+  font-size: 16px;
+  Line-height: 30px;
+}
+
+/* NRIの強みのボタン */
+.strongbtn{
+  width:239px;
+  height:70px;
+  line-height:70px;
+}
+.strongbtn a{
+  display:block;
+  width:100%;
+  height:100%;
+  text-decoration: none;
+  background:#FFFFFF;
+  text-align:center;
+  border:1px solid #FFFFFF;
+  color:#0C419A;
+  font-size:20px;
+  font-weight:bold;
+  transition: all 0.5s ease;
+}
+.strongbtn a:hover{
+  background:#FFFFFF;
+  color:#0C419A;
+  margin-left:0px;
+  margin-top:0px;
+  border:1px solid #FFFFFF;
+  box-shadow:none;
+}
+
+
