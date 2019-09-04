@@ -142,32 +142,140 @@
   Line-height: 30px;
 }
 
-/* NRIの強みのボタン */
-.strongbtn{
-  width:239px;
-  height:70px;
-  line-height:70px;
+/* NRIのつよみ・ボタン */
+
+.bw-arrow {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #0c419a;
+	font-size: 16px;
+	padding: 15px;
+	text-align: center;
+	max-width: 239px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.strongbtn a{
-  display:block;
-  width:100%;
-  height:100%;
-  text-decoration: none;
-  background:#FFFFFF;
-  text-align:center;
-  border:1px solid #FFFFFF;
-  color:#0C419A;
-  font-size:20px;
-  font-weight:bold;
-  transition: all 0.5s ease;
+
+.bw-arrow > *:first-child {
+	width: calc(100% - 10px * 3);
 }
-.strongbtn a:hover{
-  background:#FFFFFF;
-  color:#0C419A;
-  margin-left:0px;
-  margin-top:0px;
-  border:1px solid #FFFFFF;
-  box-shadow:none;
+
+.bw-arrow::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 2px #333333;
+	border-right: solid 2px #333333;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	-webkit-transform: rotate(45deg) translateX(-5px) translateY(5px);
+	-ms-transform: rotate(45deg) translateX(-5px) translateY(5px);
+	transform: rotate(45deg) translateX(-5px) translateY(5px);
+}
+
+.bw-arrow:hover {
+	opacity: 0.5;
+}
+
+a.bw-arrow:link, a.bw-arrow:active, a.bw-arrow:hover, a.bw-arrow:visited {
+	color: #0c419a;
+	text-decoration: none;
+}
+
+button.bw-arrow {
+	width: 100%;
+	border: none;
+	cursor: pointer;
+}
+
+/* NRIの強みのボタンの枠 */
+
+.bw-arrowframe {
+  display: inline-block;
+  width: 259px;
+  height: 90px;
 }
 
 
+
+/* NRIのつよみ・ボタン 下段*/
+
+.bw-arrowunder {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #0c419a;
+	font-size: 16px;
+	padding: 15px;
+	text-align: center;
+	max-width: 239px;
+  height: 51px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bw-arrowunder > *:first-child {
+	width: calc(100% - 10px * 3);
+}
+
+.bw-arrowunder::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 2px #333333;
+	border-right: solid 2px #333333;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	-webkit-transform: rotate(45deg) translateX(-5px) translateY(5px);
+	-ms-transform: rotate(45deg) translateX(-5px) translateY(5px);
+	transform: rotate(45deg) translateX(-5px) translateY(5px);
+}
+
+.bw-arrowunder:hover {
+	opacity: 0.5;
+}
+
+a.bw-arrowunder:link, a.bw-arrow:active, a.bw-arrow:hover, a.bw-arrow:visited {
+	color: #0c419a;
+	text-decoration: none;
+}
+
+button.bw-arrowunder {
+	width: 100%;
+	border: none;
+	cursor: pointer;
+}
+
+/* NRIの強みのボタンの枠 */
+
+.bw-arrowframeunder {
+  display: inline-block;
+  width: 259px;
+  height: 90px;
+}
